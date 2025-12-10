@@ -1,0 +1,9 @@
+{
+  // Use the local virtual environment for Python tooling
+  "python.defaultInterpreterPath": ".venv/bin/python",
+  // Ensure Jupyter uses the same interpreter
+  "jupyter.jupyterServerType": "local",
+  "jupyter.interpreter": {
+    "path": ".venv/bin/python"
+  }
+}
